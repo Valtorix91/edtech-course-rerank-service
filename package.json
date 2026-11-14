@@ -1,0 +1,19 @@
+{
+  "name": "edtech-course-rerank-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-strip-types src/run.ts",
+    "test": "node --experimental-strip-types --test src/course_rerank.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.104.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
